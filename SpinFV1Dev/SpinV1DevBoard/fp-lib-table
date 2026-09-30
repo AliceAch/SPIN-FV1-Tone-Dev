@@ -1,0 +1,7 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "FootprintLibrary")(type "KiCad")(uri "${KIPRJMOD}/FootprintLibrary.pretty")(options "")(descr ""))
+  (lib (name "TL074")(type "KiCad")(uri "C:/Users/9worl/Desktop/Alice/Projects/SpinFV1Dev/Datasheets/TL074.pretty")(options "")(descr ""))
+  (lib (name "USB_typeA")(type "KiCad")(uri "C:/Users/9worl/Desktop/Alice/Projects/SpinFV1Dev/Footprints/USB_typeA.pretty")(options "")(descr ""))
+  (lib (name "FV1")(type "KiCad")(uri "C:/Users/9worl/Desktop/Alice/Projects/SpinFV1Dev/Footprints/FV1.pretty")(options "")(descr ""))
+)

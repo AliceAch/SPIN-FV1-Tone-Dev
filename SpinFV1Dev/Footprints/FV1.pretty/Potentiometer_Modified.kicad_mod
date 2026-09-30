@@ -1,0 +1,224 @@
+(footprint "Potentiometer_Modified"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "1110U1Q 1110TNP 1110U2A 1110U0Q Potentiometer, horizontal, Alps RK163 Single, https://tech.alpsalpine.com/prod/e/pdf/potentiometer/rotarypotentiometers/rk16/rk16.pdf")
+	(tags "Potentiometer horizontal Alps RK163 Single")
+	(property "Reference" "REF**"
+		(at 0 13.5 180)
+		(layer "F.SilkS")
+		(uuid "a10d1095-d1dd-45fd-9017-09a3dd7555c8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Potentiometer_Modified"
+		(at 0.5 -4 180)
+		(layer "F.Fab")
+		(uuid "df4d6261-b37e-4e3b-9654-7d8c768d3d01")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2cd06197-76e7-4e53-8b25-182d51eb27a4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7e956d8a-86ca-4e2b-b7d2-b18bda11fad4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.5 12.5)
+		(end -2.5 -2.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8d942b74-691f-4d0f-9f06-c763966e0b6c")
+	)
+	(fp_line
+		(start 2.5 -2.5)
+		(end -2.5 -2.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fde7e099-8f69-473c-a857-7fbd209e87c8")
+	)
+	(fp_line
+		(start 2.5 12.5)
+		(end -2.5 12.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9a1fb522-1662-45da-b87e-0ac7bac537b6")
+	)
+	(fp_line
+		(start 2.5 12.5)
+		(end 2.5 -2.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8393260d-c2e6-4ff7-ac81-20188b7ad13a")
+	)
+	(fp_line
+		(start -2.5 -2.465608)
+		(end -2.5 12.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0ad3e5e5-2dff-4d78-9ad9-bf1156a804c9")
+	)
+	(fp_line
+		(start -2.5 12.5)
+		(end 2.5 12.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bfd23229-58c1-41d5-a37b-32dd69822558")
+	)
+	(fp_line
+		(start 2.5 -2.534391)
+		(end -2.5 -2.465608)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "263f2dc0-8f89-4fd7-b542-f0b380892989")
+	)
+	(fp_line
+		(start 2.5 12.5)
+		(end 2.5 -2.534391)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b64fc9df-c81c-4508-b320-133bae61540b")
+	)
+	(fp_line
+		(start -2.5 -2.5)
+		(end -2.5 12.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0490a738-3203-4865-a8ee-bbc41893f626")
+	)
+	(fp_line
+		(start -2.5 12.5)
+		(end 2.5 12.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e48b6ac3-7139-4ef5-b23d-1da71c2813d6")
+	)
+	(fp_line
+		(start 2.5 -2.5)
+		(end -2.5 -2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f6a2c8d6-6bdc-4db0-a603-fa1f617af934")
+	)
+	(fp_line
+		(start 2.5 12.5)
+		(end 2.5 -2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a4c7565a-d0d7-4bf2-9155-3757e5c71ac2")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 1.45 4.999999 180)
+		(layer "F.Fab")
+		(uuid "e153b07e-c054-4cdd-9a97-f10122c8673e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0 180)
+		(size 3 3)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "960e032b-6627-4be6-b651-3359890ab6af")
+	)
+	(pad "2" thru_hole circle
+		(at 0 5 180)
+		(size 3 3)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "24698926-9841-4895-b25f-f444fa0db590")
+	)
+	(pad "3" thru_hole circle
+		(at 0 10 180)
+		(size 3 3)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "53f4a414-1900-4054-9a70-175162a15d70")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Alps_RK163_Single_Horizontal.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
